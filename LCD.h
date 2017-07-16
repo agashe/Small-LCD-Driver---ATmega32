@@ -2,7 +2,7 @@
  * LCD.h
  *
  * Created: 6/14/2017 7:47:26 PM
- *  Author: MOHAMED YOUSEF
+ * Author: MOHAMED YOUSEF
  */ 
 
 #ifndef LCD_H_
@@ -14,8 +14,8 @@
 typedef unsigned char byte;
 
 #define SET_BIT(reg, index) reg |= (1 << index)
-#define CLR_BIT(reg, index)	reg &= (~(1 << index))
-#define GET_BIT(reg, index)((reg >> index) & 0x01)
+#define CLR_BIT(reg, index) reg &= (~(1 << index))
+#define GET_BIT(reg, index) ((reg >> index) & 0x01)
 #define TOG_BIT(reg, index)	reg ^= (1 << index)
 
 #define LCD_data_ddr  DDRA
