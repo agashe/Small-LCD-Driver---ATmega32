@@ -2,7 +2,7 @@
  * LCD.c
  *
  * Created: 6/14/2017 7:47:36 PM
- *  Author: MOHAMED YOUSEF
+ * Author: MOHAMED YOUSEF
  */ 
 
 #include "LCD.h"
